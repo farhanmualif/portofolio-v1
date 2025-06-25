@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://farhanmualif.togetherwith.my.id/sitemap.xml

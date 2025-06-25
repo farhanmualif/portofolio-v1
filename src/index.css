@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-cursor {
+  cursor: none;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transition: all 0.05s ease;
+  z-index: 9999;
+}
+
+.cursor-hover {
+  transform: scale(2);
+  background: rgba(255, 255, 255, 0.1);
+}
